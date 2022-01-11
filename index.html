@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style_com.css">
+</head>
+<body>
+    <div class="comentaries">   
+        <ul class="commentsSection">
+            <li class="comment"><div class="emodzi verybad"></div><p>Да ну бред какой-то...</p></li>
+        </ul>
+        <form class="addForm" action="https://echo.htmlacademy.ru/courses" method="post">
+            
+           
+            
+                <legend><h2>Оцените наши услуги!</h2></legend>
+                <p>
+                    <input type="radio" name="value" data-evaluation="verybad" value="Очень плохо" id="veryBad" class="mark" required>
+                    <label for="veryBad">Очень плохо</label>
+                </p>
+                <p>
+                    <input type="radio" name="value" data-evaluation="bad" value="Плохо" id="Bad" class="mark" required>
+                    <label for="Bad">Плохо</label>
+                </p>
+                <p>
+                    <input type="radio" name="value" data-evaluation="better" value="Можно лучше" id="Better" class="mark" required>
+                    <label for="Better">Можно лучше</label>
+                </p>
+                <p>
+                    <input type="radio" name="value" data-evaluation="ok" value="Сойдет" id="ok" class="mark" required>
+                    <label for="ok">Сойдет</label>
+                </p>
+                <p>
+                    <input type="radio" name="value" data-evaluation="good" value="Хорошо" id="good" class="mark" required>
+                    <label for="good">Хорошо</label>
+                </p>
+                <p>
+                    <input type="radio" name="value" data-evaluation="verygood" value="Очень хорошо" id="veryGood" class="mark" required>
+                    <label for="veryGood">Очень хорошо</label>
+                </p>
+            
+            <div class="commentField">
+                <legend><h2>Ваш комментарий</h2></legend>
+                <textarea type="text" class="inputField" id="comment-textarea"required></textarea>
+                <span class="text-counter">Использовано <output class="char-counter" for="comment-textarea">0</output>/142 символов</span>
+            
+            </div>
+                
+           
+            <button class="button" type="submit" data-tooltip-text="но это не точно, - прим. юриста">Add</button>
+        </form>
+    </div>
+    
+</body>
+<footer><script src="prog_com.js"></script></footer>
+</html>
